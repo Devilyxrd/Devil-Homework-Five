@@ -28,8 +28,7 @@ body::-webkit-scrollbar{
     top: 250px;
     margin: 0 auto;
     width: 1200px;
-    height: 350px;    
-    background-color: black;
+    height: 350px;
 }
 
 .container .area .logo{
