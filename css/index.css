@@ -137,7 +137,6 @@ body::-webkit-scrollbar{
     margin: 0 auto 0 auto;
     display: table;
     width: 300px;
-    color: white;
     transition: .5s;
 }
 
