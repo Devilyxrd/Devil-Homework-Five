@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    -webkit-user-select: none;
+    user-select: none;
+    font-family: sans-serif;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1680px;
+    height: 1100px;
+}
+
+.container .area{
+    position: relative;
+    top: 250px;
+    margin: 0 auto;
+    width: 1200px;
+    height: 350px;    
+    background-color: black;
+}
+
+.container .area .logo{
+    margin: 0 auto;
+    width: 350px;
+    height: 113px;
+}
+
+.container .area .blocks{
+    margin: 0 auto;
+    width: 1100px;
+    height: 140px;
+}
+
+.container .area .blocks .block_one{
+    width: inherit;
+    height: 60px;
+}
+
+.container .area .blocks .block_one #title-text{
+    margin: 0 auto 0 auto;
+    display: table;
+    width: 215px;
+}
+
+.container .area .blocks .block_one #title-input{
+    width: 300px;
+    margin: 0 auto 0 auto;
+    display: table;
+}
+
+.container .area .blocks .block_one .buttons{
+    margin: 0 auto 0 auto;
+    display: table;
+    width: 200px;
+}
+
+.container .area .blocks .block_one .buttons button{
+    margin-left: 2px;
+}
+
+/**/
+
+.container .area .blocks .block_two{
+    width: inherit;
+    height: 80px;
+    display: flex;
+    justify-content: left;
+}
+
+.container .area .blocks .block_two .box-one{
+    background-color: #7ee5da;
+    position: relative;
+    width: 400px;
+    height: inherit;
+}
+
+.container .area .blocks .block_two .box-one .texts{
+    position: relative;
+    top: 10px;
+    left: 20px;
+    margin: 0 auto;
+    width: 130px;
+    font-size: 14px;
+}
+
+.container .area .blocks .block_two .box-two{
+    background-color: #70ccc2;
+    width: 200px;
+    height: inherit;
+    margin-left: 3px;
+}
+
+.container .area .blocks .block_two .box-two .texts{
+    position: relative;
+    top: 5px;
+    left: 15px;
+    margin: 0 auto;
+    width: 110px;
+    font-size: 14px;
+}
+
+.container .area .blocks .block_two .box-three{
+    background-color: #62b3aa;
+    width: 500px;
+    height: inherit;
+    margin-left: 3px;
+}
+
+.container .area .blocks .block_two .box-three .texts{
+    position: relative;
+    top: 5px;
+    left: 15px;
+    margin: 0 auto;
+    width: 200px;
+    font-size: 14px;
+}
+
+/**/
+
+.copyright{
+    position: relative;
+    top: 30px;
+    left: 50px;
+    font-size: 15px;
+    margin: 0 auto 0 auto;
+    display: table;
+    width: 300px;
+    color: white;
+    transition: .5s;
+}
+
+.copyright span:after{
+    content: 'Made By Devil';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 200px;
+    transition: 0.5s;
+}
+
+.copyright:hover span:after {
+    opacity: 1;
+    right: 0;
+}
